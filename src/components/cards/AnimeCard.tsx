@@ -11,7 +11,7 @@ const cardVariants = {
   hover: {
     scale: 1.03,
     filter: "brightness(1.1)",
-    transition: { duration: 0.2, ease: "easeOut" },
+    transition: { duration: 0.2, ease: "easeOut" as const },
   },
 };
 

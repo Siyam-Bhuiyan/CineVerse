@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -46,7 +46,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
             >
-              <Github size={16} />
+              <ExternalLink size={16} />
               GitHub
             </a>
           </div>
